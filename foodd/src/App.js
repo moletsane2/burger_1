@@ -5,12 +5,13 @@ import './App.css';
 export function Topbread(){
   const breadstyle ={
     backgroundColor: "goldenrod",
-    width:"200px",
+    width:"250px",
     margin:"0 auto",
+    hight:"39px",
     textAlign:"center",
     bordertopright: "20px 50px",
-    borderTopLeftRadius:"30px",
-    borderTopRightRadius:"30px",
+    borderTopLeftRadius:"40px",
+    borderTopRightRadius:"40px",
     marginBottom:"-17px",
     marginTop:"200px",
     color:"goldenrod",
@@ -29,10 +30,11 @@ export function Topbread(){
 export function Tomato(){
   const tom ={
     backgroundColor: "red",
-    width:"200px",
+    width:"250px",
     margin:"0 auto",
     textAlign:"center",
-    marginBottom:"-17px"
+    marginBottom:"-17px",
+    font:"10px"
   };
   return<> 
    <div style={tom}>
@@ -44,7 +46,7 @@ export function Tomato(){
 export function Meat(){
   const b ={
     backgroundColor: "saddlebrown",
-    width:"200px",
+    width:"250px",
     margin:"0 auto",
     textAlign:"center",
     borderRadius:"20px",
@@ -61,7 +63,7 @@ export function Meat(){
 export function Lattuce(){
   const Lutt ={
     backgroundColor: "green",
-    width:"200px",
+    width:"250px",
     margin:"0 auto",
     textAlign:"center",
     marginTop:"-17px"
@@ -76,7 +78,7 @@ export function Lattuce(){
 export function Lattce(){
   const Lutt ={
     backgroundColor: "goldenrod",
-    width:"200px",
+    width:"250px",
     margin:"0 auto",
     textAlign:"center",
     marginTop:"-17px",
